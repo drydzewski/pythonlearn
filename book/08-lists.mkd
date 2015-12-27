@@ -685,10 +685,10 @@ list:
     >>> print(t2)
     None
 
-    >>> t3 = t1 + [3]
+    >>> t3 = t1 + [4]
     >>> print(t3)
-    [1, 2, 3]
-    >>> t2 is t3
+    [1, 2, 3, 4]
+    >>> t1 is t3
     False
 
 This difference is important when you write functions that are supposed
